@@ -1,12 +1,11 @@
 {
-  "engines": {
-  "node": "24.x"
-},
-
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -38,11 +37,5 @@
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.5"
-  },
-  "engines": {
-  "node": "18.x"
-}
-
-
-
+  }
 }
